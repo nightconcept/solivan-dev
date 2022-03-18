@@ -1,2 +1,3 @@
 # solivan-dev
- Personal website and blog using SvelteKit
+
+Personal website and blog using SvelteKit

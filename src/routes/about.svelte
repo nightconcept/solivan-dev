@@ -18,11 +18,9 @@
 	<title>About</title>
 </svelte:head>
 
-<div class="content">
+<div>
 	<h1>About</h1>
-
 	<p>Hi,</p>
-
 	<p>
 		I am Danny Solivan. I am a wannabe novel/short story writer, <a
 			href="https://www.lulu.com/search?adult_audience_rating=00&contributor=Danny+Solivan&page=1&pageSize=10"
@@ -56,11 +54,3 @@
 		Danny
 	</p>
 </div>
-
-<style>
-	.content {
-		width: 100%;
-		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
-	}
-</style>

@@ -5,11 +5,15 @@
 	let size = 30;
 </script>
 
-<footer>
-	<div class="social-links">
+<footer class="p-6 max-w-6xl mx-auto flex justify-between">
+	<div>
+		<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 2007-2022 © Danny Solivan
+
+	</div>
+	<div class="flex" id="social-links">
 		<a
 			href="https://github.com/nightconcept"
-			rel="noopener external"
+			rel="noopener external "
 			target="_blank"
 			id="github"
 			aria-label="Danny Solivan's Github Profile"
@@ -26,34 +30,5 @@
 			<Icon {size} path={mdiLinkedin} />
 		</a>
 	</div>
+
 </footer>
-
-<style lang="scss">
-	footer {
-		padding: 1rem;
-		display: flex;
-		font-size: 1rem;
-	}
-	.social-links {
-		display: flex;
-		align-items: center;
-	}
-
-	.social-links a {
-		fill: var(--app-color-dark);
-
-		display: flex;
-		align-items: center;
-
-		transition: fill 120ms ease-out;
-
-		margin: 0 4px;
-
-		transition: transform 200ms ease-in;
-
-		&:hover,
-		&:focus-visible {
-			transform: scale(1.2);
-		}
-	}
-</style>
