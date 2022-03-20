@@ -18,10 +18,10 @@
 	<title>About</title>
 </svelte:head>
 
-<div>
-	<h1>About</h1>
-	<p>Hi,</p>
-	<p>
+<div class="mx-auto max-w-5xl p-6 text-zinc-800 dark:text-zinc-200">
+	<h1 class="text-4xl font-bold">About</h1>
+	<p class="pt-4">Hi,</p>
+	<p class="pt-4">
 		I am Danny Solivan. I am a wannabe novel/short story writer, <a
 			href="https://www.lulu.com/search?adult_audience_rating=00&contributor=Danny+Solivan&page=1&pageSize=10"
 			>self-published poet</a
@@ -29,7 +29,7 @@
 		business administration.
 	</p>
 
-	<p>
+	<p class="pt-4">
 		I started blogging back in the early days of Xanga as a teenager, moved over to WordPress for a
 		bit, took a 10 year break, and am now back on Ghost as a 30-something adult. I re-started
 		blogging as a means to practice and improve writing as the required writing for my MBA tapers
@@ -39,17 +39,17 @@
 		effort to not be a crappy retired writer.
 	</p>
 
-	<p>
+	<p class="pt-4">
 		I will cover a wide variety of topics which include: politics, video games, writing, economics,
 		technology, food, Stoicism, and non-fiction books.
 	</p>
 
-	<p>
+	<p class="pt-4">
 		I can't say that everything I write about will be interesting to you, but you hopefully will not
 		find any of the topics too repetitive and maybe even learn something new.
 	</p>
 
-	<p>
+	<p class="pt-4">
 		Cheers,<br />
 		Danny
 	</p>

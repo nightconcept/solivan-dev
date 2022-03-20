@@ -1,21 +1,40 @@
-<script context="module" lang="ts">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
+	export const prerender = true;
 </script>
 
 <svelte:head>
 	<title>Home // Solivan.dev</title>
+	<link rel="canonical" href="http://solivan.dev" />
+	<link rel="alternate" type="application/rss+xml" href="http://solivan.dev/api/rss.xml" />
+	<meta property="og:url" content="http://solivan.dev" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Solivan.dev" />
+	<meta
+		name="Description"
+		content="Danny Solivan's personal website. Read about development, writing, and politics on the blog."
+	/>
+	<meta
+		property="og:description"
+		content="Danny Solivan's personal website. Read about development, writing, and politics on the blog."
+	/>
+	<!-- <meta property="og:image" content={DEFAULT_OG_IMAGE} /> -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:creator" content="@nightconcept" />
+	<meta name="twitter:title" content="Solivan.dev" />
+	<meta
+		name="twitter:description"
+		content="Danny Solivan's personal website. Read about development, writing, and politics on the blog."
+	/>
+	<!-- <meta name="twitter:image" content={DEFAULT_OG_IMAGE} /> -->
 </svelte:head>
 
-<section id="intro">
-	<div class="p-6 max-w-6xl mx-auto flex">
-		<div id="about-text" class="h-12">
-			<h1>Hi, I'm Danny.</h1>
-			<p>
-				I'm an electrical engineer by day, gamer, web developer, writer, poet, and overall nerd by
-				night. I like thinking and making my thoughts a reality.
+<section class="bg-zinc-50 dark:bg-gray-900">
+	<div class="mx-auto flex max-w-5xl p-6">
+		<div class="h-12 text-zinc-800 dark:text-zinc-200">
+			<h1 class="text-4xl font-bold">Hi, I'm Danny.</h1>
+			<p class="pt-4">
+				I'm an engineer by day, gamer, developer, writer, poet, and Stoic by night. I like thinking
+				and making my thoughts a reality.
 			</p>
 		</div>
 		<div id="photo">
@@ -24,8 +43,8 @@
 	</div>
 </section>
 
-<section id="blog-posts">
-	<div class="p-6 max-w-6xl mx-auto flex">
-	<h1>Recent Blog Posts</h1>
-</div>
+<section class="bg-zinc-50 dark:bg-gray-900">
+	<div class="mx-auto flex max-w-5xl p-6">
+		<h1 class="text-2xl font-bold text-zinc-800 dark:text-zinc-200">Recent Blog Posts</h1>
+	</div>
 </section>

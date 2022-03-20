@@ -1,0 +1,23 @@
+{
+	"version": 2,
+
+	"cleanUrls": true,
+
+	"redirects": [
+		{
+			"source": "/twitter",
+			"permanent": false,
+			"destination": "https://twitter.com/nightconcept"
+		},
+		{
+			"source": "/github",
+			"permanent": false,
+			"destination": "https://github.com/nightconcept"
+		},
+		{
+			"source": "/linkedin",
+			"permanent": false,
+			"destination": "https://linkedin.com/in/daniel-solivan-82289912/"
+		}
+	]
+}
