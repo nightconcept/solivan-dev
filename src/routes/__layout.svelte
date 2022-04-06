@@ -49,3 +49,5 @@
 		</div>
 	</footer>
 </div>
+
+<div class="flex flex-grow bg-zinc-50 dark:bg-gray-900" />

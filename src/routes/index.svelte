@@ -30,15 +30,15 @@
 
 <section class="bg-zinc-50 dark:bg-gray-900">
 	<div class="mx-auto flex max-w-5xl p-6">
-		<div class="h-12 text-zinc-800 dark:text-zinc-200">
+		<div class="m-1 h-12 text-zinc-800 dark:text-zinc-200">
 			<h1 class="text-4xl font-bold">Hi, I'm Danny.</h1>
 			<p class="pt-4">
 				I'm an engineer by day, gamer, developer, writer, poet, and Stoic by night. I like thinking
 				and making my thoughts a reality.
 			</p>
 		</div>
-		<div id="photo">
-			<img src="https://via.placeholder.com/400x400?text=Picture+Of+Danny+Here" alt="Danny" />
+		<div class="flex h-1/3 w-1/3 justify-center rounded-lg" id="photo">
+			<img class="rounded" src="/danny_photo.jpg" alt="Danny" />
 		</div>
 	</div>
 </section>
@@ -46,5 +46,6 @@
 <section class="bg-zinc-50 dark:bg-gray-900">
 	<div class="mx-auto flex max-w-5xl p-6">
 		<h1 class="text-2xl font-bold text-zinc-800 dark:text-zinc-200">Recent Blog Posts</h1>
+		<p />
 	</div>
 </section>
