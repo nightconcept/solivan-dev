@@ -2,6 +2,8 @@
 title: Tweets Collected Part 1
 date: 2021-12-09
 updated:
+tags:
+type: blog
 status: published
 ---
 

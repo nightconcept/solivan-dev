@@ -2,8 +2,9 @@
 title: What is This?
 date: 2021-11-30
 readTime: 3
+updated:
 tags:
-type:
+type: blog
 status: published
 ---
 

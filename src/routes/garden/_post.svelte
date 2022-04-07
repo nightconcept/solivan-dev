@@ -13,8 +13,12 @@
 		date.getFullYear();
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
+
 <article class="bg-zinc-50 dark:bg-gray-900">
-	<div class="mx-auto max-w-5xl p-6 m-1 prose lg:prose-xl dark:prose-invert">
+	<div class="mx-auto max-w-5xl p-6 m-1 prose lg:prose-lg dark:prose-invert">
 		<h1># {title}</h1>
 		<h2>
 			{date}

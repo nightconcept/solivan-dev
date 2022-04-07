@@ -3,7 +3,7 @@ title: Amateur Research
 date: 2021-12-10
 updated:
 tags: 
-type:
+type: blog
 status: published
 ---
 
@@ -15,7 +15,7 @@ I  mentioned personal knowledge management (PKM) earlier... so you may be  wonde
 
 I have  found this tool called Obsidian which has been working out very well so  far. Essentially what you do is you write... a lot... of everything? You write daily journals, you write notes of (sometimes obscure) topics you think about, and so on. While you write, you tag, link up notes, and  earmark future notes. Eventually you will hit a mental squeeze point  when you have too many notes just floating in the ether and feel  overwhelmed by the weight of it. What do you do next? You create a map  of content which will help you link all of it together. When you do  this, you map out and connect islands of notes to a much larger  collective.
 
- Essentially, you're building a [second brain](https://dev.to/einargudnig/building-my-second-brain-with-obsidian-pt-i-4oc2) that will exist in digitally. This brain is similar to a personal wiki  that will be constantly in a state of unfinished, but constantly  growing.
+Essentially, you're building a [second brain](https://dev.to/einargudnig/building-my-second-brain-with-obsidian-pt-i-4oc2) that will exist in digitally. This brain is similar to a personal wiki  that will be constantly in a state of unfinished, but constantly  growing.
 
 OK, so now you might ask, what exactly are you doing this for? What does this wiki or Obsidian or whatever do for you? What do  you get out of it? Well for me, encourages me to plant this knowledge  somewhere first of all. I have all of these thoughts that are just in my mind, but completely unrefined. Eventually I want to write a book. Or  more. I want to write all the time. I want my browse sessions which find tons of information and increase their permanance in my brain. I want  to be able to reference back to my sources if needed.
 

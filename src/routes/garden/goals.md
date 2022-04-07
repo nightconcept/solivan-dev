@@ -4,7 +4,7 @@ date: 2021-12-01
 readTime: 2
 updated:
 tags: 
-type:
+type: blog
 status: published
 ---
 
