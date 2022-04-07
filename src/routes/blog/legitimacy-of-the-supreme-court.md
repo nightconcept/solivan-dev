@@ -4,7 +4,7 @@ date: 2022-03-25
 updated:
 tags:
 type:
-status: draft
+status: published
 ---
 
 I love the Supreme Court. I got to see the building last  fall. I have read "The Nine" by Jeffrey Toobin. As a liberal, I love  RBG. I love the little snippets of quip and oration from the Justices  and the lawyers who need to argue before them. I am not a lawyer, but  maybe in another universe, I could have been.

@@ -1,6 +1,6 @@
 ---
 title: Tweets Collected Part 1
-date: 2022-01-08
+date: 2021-12-09
 updated:
 status: published
 ---

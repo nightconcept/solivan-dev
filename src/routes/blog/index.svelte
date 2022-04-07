@@ -17,7 +17,7 @@
 		date =
 		date.toLocaleDateString('en-us', { month: 'short' }) +
 		' ' +
-		date.getDay() +
+		date.getDate() +
 		', ' +
 		date.getFullYear();
 		posts[i].date = date;
