@@ -18,7 +18,7 @@
 </svelte:head>
 
 <article class="bg-zinc-50 dark:bg-gray-900">
-	<div class="mx-auto max-w-5xl p-6 m-1 prose lg:prose-lg dark:prose-invert">
+	<div class="prose m-1 mx-auto max-w-5xl p-6 dark:prose-invert lg:prose-lg">
 		<h1># {title}</h1>
 		<h2>
 			{date}

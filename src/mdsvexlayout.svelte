@@ -1,7 +1,7 @@
 <!-- https://tailwindcss.com/docs/typography-plugin#element-modifiers -->
 <article
-	class="container prose mx-auto p-6 m-1 hover:prose-a:text-blue-300 prose-ul:list-disc
-dark:prose-invert lg:prose-lg bg-zinc-50 dark:bg-gray-900 max-w-5xl
+	class="container prose m-1 mx-auto max-w-5xl bg-zinc-50 p-6
+hover:prose-a:text-blue-300 prose-ul:list-disc dark:prose-invert dark:bg-gray-900 lg:prose-lg
 "
 >
 	<slot />

@@ -1,6 +1,6 @@
 <script context="module" lang="ts">
 	import type { Load } from '@sveltejs/kit';
-	import PostType from '../components/PostType.svelte'
+	import PostType from '../components/PostType.svelte';
 	export const load: Load = async ({ fetch }) => {
 		const res = await fetch('/api/posts.json');
 		const { posts } = await res.json();
@@ -33,11 +33,11 @@
 		<p class="pt-2 text-lg">
 			The garden. A place where I plant new ideas, cultivate old ones, and let some wither.
 		</p>
-		<h2 class="text-2xl font-semibold mt-8">Latest Posts</h2>
-		<ul class="mt-2 mx-auto">
+		<h2 class="mt-8 text-2xl font-semibold">Latest Posts</h2>
+		<ul class="mx-auto mt-2">
 			{#each posts as post}
 				{#if post.status === 'published'}
-					<li class="py-3 hover:bg-slate-300 dark:hover:bg-slate-600 px-2 rounded-lg">
+					<li class="rounded-lg py-3 px-2 hover:bg-slate-300 dark:hover:bg-slate-600">
 						<!-- <span class="font-light text-sm rounded bg-gray-600 p-1 uppercase text-gray-200"
 							>{post.type}</span
 						> -->
@@ -45,7 +45,7 @@
 						<a class="px-2 text-lg hover:underline dark:text-gray-300" href="/garden/{post.slug}"
 							>{post.title}</a
 						>
-						<span class="font-light text-sm italic dark:text-gray-300">{post.date}</span>
+						<span class="text-sm font-light italic dark:text-gray-300">{post.date}</span>
 					</li>
 				{/if}
 			{/each}

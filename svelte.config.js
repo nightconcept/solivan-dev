@@ -17,7 +17,7 @@ const config = {
 
 	extensions: ['.svelte', '.md', '.svx'],
 	kit: {
-		adapter: adapter(),
+		adapter: adapter()
 	}
 };
 
