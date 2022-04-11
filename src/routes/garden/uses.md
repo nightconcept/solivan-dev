@@ -1,7 +1,7 @@
 ---
 title: uses
 date: 2022-04-09
-updated:
+updated: 2022-04-11
 tags:
 type: misc
 status: draft
@@ -9,6 +9,14 @@ status: draft
 
 This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all the others from [uses.tech](https://uses.tech/). This page will continually be updated as I change my uses and setup.
 
+# Tech Stack
+- SvelteKit/Svelte
+- Tailwind CSS
+- PostCSS
+- Prettier
+- ESLint
+- JavaScript/TypeScript
+- Vercel for hosting
 # Hardware
 
 ## Computers
@@ -35,7 +43,7 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 - [Huanuo Dual Monitor Mount Stand](https://smile.amazon.com/gp/product/B07X262MRK?psc=1)
 - Windows 10
 
-### Laptop
+### Development Laptop & Portable HTPC
 
 - Macbook Pro 2020 M1
 - 256 SSD
@@ -54,14 +62,15 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 - AMD A8-7600 3GHz Quad-Core CPU
 - ASRock FM2A88X PRO3+ Motherboard
 - Corsair Vengeance Pro 8GB (2x4GB) DDR3-1866 CL11 RAM
-- 3x Seagate BarraCuda 4TB 5400RPM HD
-- 2x WD Blue 2TB 5400RPM HD
+- 3x Seagate BarraCuda 4TB 5400RPM HD in RAID 5
+- 2x WD Blue 2TB 5400RPM HD in RAID 10
 - EVGA BQ 500W 80+ Bronze Certified Semi-modular PSU
 - Ubuntu 20.04 LTS
 
 ### Work Laptop
 
 - Dell Latitude 7480
+- Intel i5-6300U
 - 16GB RAM
 - Windows 10
 
@@ -95,44 +104,55 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 - Garmin Edge 820
 - Jaybird X4 Wireless BT Headphones for Running
 
-### Network
+# Network
 
 - NETGEAR Nighthawk X4S AC2600 WiFi Router
 - TRENDnet 24-Port Unmanaged Gigabit GREENnet Switch
 
-### Photos
+# Photography
 
 - Canon EOS Rebel T5i
 - Canon EF-S 18-55mm f/3.5-5.6 IS STM
 - Canon EF-S 55-250mm F4-5.6 IS STM
 - Rokinon FE14M-C 14mm F2.8
-
 # Software
-
 ## Development Tools
 
-- Editors: Visual Studio Code and Notepad++
-- Terminal: Cmder Terminal (Windows)
-- Shell: Git Bash Shell (Windows)
+- Editor: Visual Studio Code
+- Terminal: Hyper (MacOS), Cmder (Windows)
+- Shell: oh-my-zsh (MacOS), Git Bash Shell (Windows)
 - SCM: GitHub w/ GitHub Desktop
 - Browsers: Firefox Stable and Chromium Ungoogled
-- Font: Consolas Font
-- Word Editor: Typora
+- Font: Consolas Font, Fira Code Nerd Fonts
+- Markdown Editor: Typora
 
 ## Productivity
-
-- Obsidian
-- Google Drive
-- DisplayFusion Pro
-- EyeLeo
-- LastPass Family
-- NordVPN
-- Signal
-- Trello
+- Obsidian for note taking
+- Google Drive for personal file syncing
+- LastPass Family for shared use with my wife
+- NordVPN for privacy
+- Signal on desktop and mobile for privacy
+- Trello 
+- DisplayFusion Pro (Windows) for better multi-monitor desktop background management and better taskbar support
+- EyeLeo (Windows) to remind me to rest my eyes and stretch
+- Stretchly (MacOS) to remind me to rest my eyes and stretch
+- BetterTouchTools (MacOS) for Windows-esque window snapping
+- Rocket (MacOS) for better emoji support
+- Fig (MacOS) for autocompletion in the terminal
 
 # Miscellaneous
 
-### Desk Setup
+## Desk Setup
 
 - UpliftDesk V2 Desk
 - [DXRacer RV001 Blue Chair](https://www.dxracer.com/collections/gaming-chairs/formula-and-racing-series/oh-rv001-nb)
+
+## Podcasts
+- Syntax
+- Left, Right, Center
+- Capitalisn't
+
+## Newsletters
+- [Daily Stoic](https://dailystoic.com/)
+- Eleanor Konik's [Iceberg](https://newsletter.eleanorkonik.com/)
+- [TLDR Tech Newsletter](https://tldr.tech/newsletter)
