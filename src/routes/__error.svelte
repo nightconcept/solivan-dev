@@ -30,7 +30,7 @@
 	<title>{title}</title>
 </svelte:head>
 
-<section class="container  prose mx-auto py-12 dark:prose-invert">
+<section class="container prose mx-auto py-12 dark:prose-invert">
 	<h1>{status}: {title}</h1>
 
 	{#if status === 404}
