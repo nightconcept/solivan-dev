@@ -1,6 +1,6 @@
 <script>
 	import NavLink from './NavLink.svelte';
-	import DarkToggle from './DarkToggle.svelte'
+	import DarkToggle from './DarkToggle.svelte';
 </script>
 
 <nav class="bg-zinc-200 dark:bg-zinc-900">

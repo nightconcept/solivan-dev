@@ -3,8 +3,8 @@
 	import Nav from '../components/Nav.svelte';
 	import '../global.css';
 	import { mdiLinkedin, mdiGithub, mdiTwitter } from '@mdi/js';
-	
-	let year = new Date().getFullYear()
+
+	let year = new Date().getFullYear();
 </script>
 
 <div>
@@ -21,9 +21,9 @@
 			(c) Danny Solivan 2007-{year}
 		</div>
 		<div class="flex">
-				<Icon path={mdiTwitter} link="https://twitter.com/nightconcept" />
-				<Icon path={mdiGithub} link="https://github.com/nightconcept" />
-				<Icon path={mdiLinkedin} link="https://linkedin.com/in/daniel-solivan-82289912/" />
+			<Icon path={mdiTwitter} link="https://twitter.com/nightconcept" />
+			<Icon path={mdiGithub} link="https://github.com/nightconcept" />
+			<Icon path={mdiLinkedin} link="https://linkedin.com/in/daniel-solivan-82289912/" />
 		</div>
 	</footer>
 </div>
