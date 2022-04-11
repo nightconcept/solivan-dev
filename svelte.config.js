@@ -1,3 +1,4 @@
+import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 
@@ -14,7 +15,16 @@ const config = {
 		})
 	],
 
-	extensions: ['.svelte', '.md', '.svx'],
+	extensions: ['.svelte', '.md'],
+
+	kit: {
+		adapter: adapter(),
+
+		// Override http methods in the Todo forms
+		methodOverride: {
+			allowed: ['PATCH', 'DELETE']
+		}
+	}
 };
 
 export default config;
