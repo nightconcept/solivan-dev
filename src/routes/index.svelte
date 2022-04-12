@@ -1,7 +1,7 @@
 <script context="module" lang="ts">
 	import type { Load } from '@sveltejs/kit';
 	export const load: Load = async ({ fetch }) => {
-		const res = await fetch('/api/posts.json');
+		const res = await fetch('http://solivan.dev/api/posts.json');
 		const { posts } = await res.json();
 		return { props: { posts } };
 	};
