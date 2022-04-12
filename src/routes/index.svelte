@@ -9,6 +9,7 @@
 			error: await res.text()
 		}
 	} else {
+		console.log("got the posts")
 		return { props: await res.json() }
 	}
 }
@@ -17,6 +18,7 @@
 
 <script>
 	export let posts;
+	console.log("taking the posts")
 	let date;
 	for (let i = 0; i < posts.length; i++) {
 		date = new Date(posts[i].date);
@@ -28,6 +30,7 @@
 			date.getFullYear();
 		posts[i].date = date;
 	}
+	console.log(posts);
 </script>
 
 <svelte:head>
