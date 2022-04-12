@@ -1,4 +1,5 @@
 <script context="module">
+	export const prerender = true;
 	export async function load({ params, fetch }) {
 		const res = await fetch('/api/posts.json');
 	if (res.status > 400 ) {
@@ -12,8 +13,6 @@
 	}
 }
 
-
-	export const prerender = true;
 </script>
 
 <script>
