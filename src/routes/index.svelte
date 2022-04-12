@@ -1,10 +1,17 @@
-<script context="module" lang="ts">
-	import type { Load } from '@sveltejs/kit';
-	export const load: Load = async ({ fetch }) => {
-		const res = await fetch('https://solivan.dev/api/posts.json');
-		const { posts } = await res.json();
-		return { props: { posts } };
-	};
+<script context="module">
+	export async function load({ params, fetch }) {
+		const res = await fetch('/api/posts.json');
+	if (res.status > 400 ) {
+		console.error('render error for ' + `/api/posts.json`);
+		return {
+			status: res.status,
+			error: await res.text()
+		}
+	} else {
+		return { props: await res.json() }
+	}
+}
+
 
 	export const prerender = true;
 </script>
