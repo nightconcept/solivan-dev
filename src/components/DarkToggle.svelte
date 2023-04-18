@@ -24,7 +24,7 @@
 <button
 	aria-label="Toggle Dark Mode"
 	class="ml-1 flex items-center justify-center
-text-zinc-500 transition-all hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200 "
+text-zinc-500 transition-all hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
 	on:click={toggleDarkMode}
 >
 	{#if isDark}
