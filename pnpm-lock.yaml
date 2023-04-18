@@ -12,6 +12,9 @@ dependencies:
     version: 0.5.0
 
 devDependencies:
+  '@playwright/test':
+    specifier: ^1.32.3
+    version: 1.32.3
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
     version: 2.0.0(@sveltejs/kit@1.15.7)
@@ -624,6 +627,17 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
+    dev: true
+
+  /@playwright/test@1.32.3:
+    resolution: {integrity: sha512-BvWNvK0RfBriindxhLVabi8BRe3X0J9EVjKlcmhxjg4giWBD/xleLcg2dz7Tx0agu28rczjNIPQWznwzDwVsZQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dependencies:
+      '@types/node': 18.15.11
+      playwright-core: 1.32.3
+    optionalDependencies:
+      fsevents: 2.3.2
     dev: true
 
   /@polka/url@1.0.0-next.21:
@@ -2051,6 +2065,12 @@ packages:
   /pirates@4.0.5:
     resolution: {integrity: sha512-8V9+HQPupnaXMA23c5hvl69zXvTwTzyAYasnkb0Tts4XvO4CliqONMOnvlq26rkhLC3nWDFBJf73LU1e1VZLaQ==}
     engines: {node: '>= 6'}
+    dev: true
+
+  /playwright-core@1.32.3:
+    resolution: {integrity: sha512-SB+cdrnu74ZIn5Ogh/8278ngEh9NEEV0vR4sJFmK04h2iZpybfbqBY0bX6+BLYWVdV12JLLI+JEFtSnYgR+mWg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /postcss-import@14.1.0(postcss@8.4.22):
