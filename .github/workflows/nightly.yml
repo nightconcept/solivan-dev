@@ -32,6 +32,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+        with:
+          version: 8
+          run_install: false
 
       - name: Create Pull Request
         id: createpr
