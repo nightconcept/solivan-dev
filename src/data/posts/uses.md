@@ -10,6 +10,7 @@ status: draft
 This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all the others from [uses.tech](https://uses.tech/). This page will continually be updated as I change my uses and setup.
 
 # Tech Stack
+
 - SvelteKit/Svelte
 - Tailwind CSS
 - PostCSS
@@ -17,6 +18,7 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 - ESLint
 - JavaScript/TypeScript
 - Vercel for hosting
+
 # Hardware
 
 ## Computers
@@ -115,7 +117,9 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 - Canon EF-S 18-55mm f/3.5-5.6 IS STM
 - Canon EF-S 55-250mm F4-5.6 IS STM
 - Rokinon FE14M-C 14mm F2.8
+
 # Software
+
 ## Development Tools
 
 - Editor: Visual Studio Code
@@ -127,12 +131,13 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 - Markdown Editor: Typora
 
 ## Productivity
+
 - Obsidian for note taking
 - Google Drive for personal file syncing
 - LastPass Family for shared use with my wife
 - NordVPN for privacy
 - Signal on desktop and mobile for privacy
-- Trello 
+- Trello
 - DisplayFusion Pro (Windows) for better multi-monitor desktop background management and better taskbar support
 - EyeLeo (Windows) to remind me to rest my eyes and stretch
 - Stretchly (MacOS) to remind me to rest my eyes and stretch
@@ -148,11 +153,13 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 - [DXRacer RV001 Blue Chair](https://www.dxracer.com/collections/gaming-chairs/formula-and-racing-series/oh-rv001-nb)
 
 ## Podcasts
+
 - Syntax
 - Left, Right, Center
 - Capitalisn't
 
 ## Newsletters
+
 - [Daily Stoic](https://dailystoic.com/)
 - Eleanor Konik's [Iceberg](https://newsletter.eleanorkonik.com/)
 - [TLDR Tech Newsletter](https://tldr.tech/newsletter)

@@ -1,54 +1,18 @@
-<script context="module" lang="ts">
-	import type { Load } from '@sveltejs/kit';
-	export const load: Load = async ({ fetch }) => {
-		const res = await fetch('/api/posts.json');
-		const { posts } = await res.json();
-		return { props: { posts } };
-	};
-
-	export const prerender = true;
-</script>
-
 <script>
-	export let posts;
+	/** @type {import('./$types').PageData} */
+	export let data;
 	let date;
-	for (let i = 0; i < posts.length; i++) {
-		date = new Date(posts[i].date);
+	for (let i = 0; i < data.posts.length; i++) {
+		date = new Date(data.posts[i].date);
 		date =
 			date.toLocaleDateString('en-us', { month: 'short' }) +
 			' ' +
 			date.getDate() +
 			', ' +
 			date.getFullYear();
-		posts[i].date = date;
+		data.posts[i].date = date;
 	}
 </script>
-
-<svelte:head>
-	<title>Solivan.dev</title>
-	<link rel="canonical" href="http://solivan.dev" />
-	<link rel="alternate" type="application/rss+xml" href="http://solivan.dev/api/rss.xml" />
-	<meta property="og:url" content="http://solivan.dev" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Solivan.dev" />
-	<meta
-		name="Description"
-		content="Danny Solivan's personal website. Read about development, writing, and miscellaneous in his digital garden."
-	/>
-	<meta
-		property="og:description"
-		content="Danny Solivan's personal website. Read about development, writing, and miscellaneous in his digital garden."
-	/>
-	<!-- <meta property="og:image" content={DEFAULT_OG_IMAGE} /> -->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content="@nightconcept" />
-	<meta name="twitter:title" content="Solivan.dev" />
-	<meta
-		name="twitter:description"
-		content="Danny Solivan's personal website. Read about development, writing, and miscellaneous in his digital garden."
-	/>
-	<!-- <meta name="twitter:image" content={DEFAULT_OG_IMAGE} /> -->
-</svelte:head>
 
 <section class="bg-zinc-50 dark:bg-gray-900">
 	<div class="mx-auto flex max-w-5xl p-6">
@@ -80,13 +44,13 @@
 	<div class="mx-auto max-w-5xl p-6">
 		<h1 class="text-2xl font-bold text-zinc-800 dark:text-zinc-200">Recent Posts</h1>
 		<ul class="mx-auto mt-2">
-			{#each posts as post}
+			{#each data.posts as post}
 				{#if post.status === 'published'}
 					<li class="rounded-lg py-3 px-2 hover:bg-slate-300 dark:hover:bg-slate-500">
 						<span class="rounded bg-gray-600 p-1 text-sm font-light uppercase text-gray-200"
 							>{post.type}</span
 						>
-						<a class="px-2 text-lg hover:underline dark:text-gray-300" href="/garden/{post.slug}"
+						<a class="px-2 text-lg hover:underline dark:text-gray-300" href="/blog/{post.slug}"
 							>{post.title}</a
 						>
 						<span class="text-sm font-light italic dark:text-gray-300">{post.date}</span>

@@ -8,7 +8,7 @@
 		<div class="flex h-16 items-center justify-between">
 			<div class="flex space-x-4">
 				<NavLink href="/">Home</NavLink>
-				<NavLink href="/garden">Garden</NavLink>
+				<NavLink href="/blog">Blog</NavLink>
 				<NavLink href="/about">About</NavLink>
 			</div>
 			<div>

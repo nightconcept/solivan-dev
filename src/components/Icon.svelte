@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let path: string;
 	export let link: string;
-	export let size: number = 24;
+	export let size = 24;
 </script>
 
 <a
