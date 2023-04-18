@@ -3,14 +3,16 @@ import { expect, test } from '@playwright/test';
 test.describe('front page functions', () => {
 	test('frontpage loads', async ({ page }) => {
 		await page.goto('/');
-		await expect(page).toHaveTitle("Solivan.dev");
+		await expect(page).toHaveTitle('Solivan.dev');
 	});
 	test('list posts loads', async ({ page }) => {
 		await page.goto('/');
 		// TODO: Big assumption that there will always be a blog post
-		await expect(page.getByRole('listitem').filter({ hasText: 'blog' }).first()).toContainText('blog');
+		await expect(page.getByRole('listitem').filter({ hasText: 'blog' }).first()).toContainText(
+			'blog'
+		);
 	});
-})
+});
 
 test.describe('blog page loads and lists posts', () => {
 	test('blog page loads', async ({ page }) => {
@@ -21,7 +23,9 @@ test.describe('blog page loads and lists posts', () => {
 	test('list posts loads', async ({ page }) => {
 		await page.goto('/');
 		// TODO: Big assumption that there will always be a blog post
-		await expect(page.getByRole('listitem').filter({ hasText: 'blog' }).first()).toContainText('blog');
+		await expect(page.getByRole('listitem').filter({ hasText: 'blog' }).first()).toContainText(
+			'blog'
+		);
 	});
 });
 
@@ -40,4 +44,4 @@ test('dark mode toggle', async ({ page }) => {
 	await page.goto('/');
 	await page.getByRole('button', { name: 'Toggle Dark Mode' }).click();
 	await page.getByRole('button', { name: 'Toggle Dark Mode' }).click();
-  });
+});
