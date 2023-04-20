@@ -46,8 +46,8 @@
 		</div>
 		<div class="flex">
 			<!-- <Icon path={mdiTwitter} link="https://twitter.com/nightconcept" /> -->
-			<Icon path={mdiGithub} link="https://github.com/nightconcept" />
-			<Icon path={mdiLinkedin} link="https://linkedin.com/in/daniel-solivan-82289912/" />
+			<Icon path={mdiGithub} link="https://github.com/nightconcept" alt="Github Profile"/>
+			<Icon path={mdiLinkedin} link="https://linkedin.com/in/daniel-solivan-82289912/" alt="LinkedIn Profile"/>
 		</div>
 	</footer>
 </div>

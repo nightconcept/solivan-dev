@@ -12,6 +12,7 @@
 			date.getFullYear();
 		data.posts[i].date = date;
 	}
+	// @ts-ignore
 	import DannyPhoto from '$lib/photos/danny_photo.jpg?w=400&h=400&webp'
 </script>
 

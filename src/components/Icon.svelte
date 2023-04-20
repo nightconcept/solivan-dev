@@ -2,6 +2,7 @@
 	export let path: string;
 	export let link: string;
 	export let size = 24;
+	export let alt: string;
 </script>
 
 <a
@@ -11,6 +12,7 @@
 	target="_blank"
 >
 	<svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24">
+		<title>{alt}</title>
 		<path d={path} />
 	</svg>
 </a>
