@@ -18,7 +18,7 @@
 
 <section class="bg-zinc-50 dark:bg-gray-900">
 	<div class="mx-auto flex max-w-5xl p-6">
-		<div class="m-1 h-12 text-zinc-800 dark:text-zinc-200">
+		<div class="m-1 h-1/5 text-zinc-800 dark:text-zinc-200">
 			<h1 class="text-6xl font-bold"># Hi, I'm Danny.</h1>
 			<p class="pt-4">
 				I'm an engineer by day, gamer, developer, writer, poet, and Stoic by night. I like thinking
