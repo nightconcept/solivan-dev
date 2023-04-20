@@ -5,11 +5,6 @@
 
 	"redirects": [
 		{
-			"source": "/twitter",
-			"permanent": false,
-			"destination": "https://twitter.com/nightconcept"
-		},
-		{
 			"source": "/github",
 			"permanent": false,
 			"destination": "https://github.com/nightconcept"

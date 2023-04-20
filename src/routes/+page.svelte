@@ -12,6 +12,7 @@
 			date.getFullYear();
 		data.posts[i].date = date;
 	}
+	import DannyPhoto from '$lib/photos/danny_photo.jpg?w=400&h=400&webp'
 </script>
 
 <section class="bg-zinc-50 dark:bg-gray-900">
@@ -33,8 +34,10 @@
 		<div class="flex h-1/2 w-1/2 justify-center pl-2" id="photo">
 			<img
 				class="rounded-full shadow-[0_0_0_0.4rem_rgba(0,0,0,0.3)] shadow-slate-700 dark:shadow-slate-100"
-				src="/photos/danny_photo.jpg"
+				src={DannyPhoto}
 				alt="Danny"
+				width=400
+				height=400
 			/>
 		</div>
 	</div>
