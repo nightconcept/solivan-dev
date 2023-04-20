@@ -13,7 +13,7 @@
 		data.posts[i].date = date;
 	}
 	// @ts-ignore
-	import DannyPhoto from '$lib/photos/danny_photo.jpg?w=400&h=400&webp'
+	import DannyPhoto from '$lib/photos/danny_photo.jpg?w=400&h=400&webp';
 </script>
 
 <section class="bg-zinc-50 dark:bg-gray-900">
@@ -37,8 +37,8 @@
 				class="rounded-full shadow-[0_0_0_0.4rem_rgba(0,0,0,0.3)] shadow-slate-700 dark:shadow-slate-100"
 				src={DannyPhoto}
 				alt="Danny"
-				width=400
-				height=400
+				width="400"
+				height="400"
 			/>
 		</div>
 	</div>

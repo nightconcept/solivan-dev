@@ -2,7 +2,7 @@
 	import PostType from '../../components/PostType.svelte';
 </script>
 
-<script>
+<script type="ts">
 	/** @type {import('./$types').PageData} */
 	export let data;
 	let date;
