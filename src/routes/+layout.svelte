@@ -10,7 +10,7 @@
 <svelte:head>
 	<title>Solivan.dev</title>
 	<link rel="canonical" href="http://solivan.dev" />
-	<link rel="alternate" type="application/rss+xml" href="http://solivan.dev/api/rss.xml" />
+	<link rel="me" href="https://mastodon.social/@nightconcept">
 	<meta property="og:url" content="http://solivan.dev" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Solivan.dev" />
@@ -22,15 +22,6 @@
 		property="og:description"
 		content="Danny Solivan's personal website. Read about development, writing, and miscellaneous on the blog."
 	/>
-	<!-- <meta property="og:image" content={DEFAULT_OG_IMAGE} /> -->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content="@nightconcept" />
-	<meta name="twitter:title" content="Solivan.dev" />
-	<meta
-		name="twitter:description"
-		content="Danny Solivan's personal website. Read about development, writing, and miscellaneous on the blog."
-	/>
-	<!-- <meta name="twitter:image" content={DEFAULT_OG_IMAGE} /> -->
 </svelte:head>
 
 <div>
