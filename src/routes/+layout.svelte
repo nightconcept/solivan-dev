@@ -2,7 +2,7 @@
 	import '../tailwind.css';
 	import Icon from '../components/Icon.svelte';
 	import Nav from '../components/Nav.svelte';
-	import { mdiLinkedin, mdiGithub } from '@mdi/js';
+	import { mdiMastodon, mdiLinkedin, mdiGithub } from '@mdi/js';
 
 	let year = new Date().getFullYear();
 </script>
@@ -45,7 +45,12 @@
 			(c) Danny Solivan 2007-{year}
 		</div>
 		<div class="flex">
-			<!-- <Icon path={mdiTwitter} link="https://twitter.com/nightconcept" /> -->
+			<Icon
+				path={mdiMastodon}
+				link="https://mastodon.social/@nightconcept"
+				alt="Mastodon Profile"
+				rel="me"
+			/>
 			<Icon path={mdiGithub} link="https://github.com/nightconcept" alt="Github Profile" />
 			<Icon
 				path={mdiLinkedin}
