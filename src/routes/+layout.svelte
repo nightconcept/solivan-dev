@@ -10,7 +10,7 @@
 <svelte:head>
 	<title>Solivan.dev</title>
 	<link rel="canonical" href="http://solivan.dev" />
-	<link rel="me" href="https://mastodon.social/@nightconcept">
+	<link rel="me" href="https://mastodon.social/@nightconcept" />
 	<meta property="og:url" content="http://solivan.dev" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Solivan.dev" />
