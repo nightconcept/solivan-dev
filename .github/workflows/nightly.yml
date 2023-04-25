@@ -31,7 +31,7 @@ jobs:
           run_install: false
 
       - name: Clear lockfile
-        run: rm -rf pnpm-lock.json node_modules
+        run: rm -rf pnpm-lock.yaml node_modules
 
       - name: Install dependencies
         run: pnpm install
