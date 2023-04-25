@@ -25,7 +25,7 @@
 		<h1># {data.post.title}</h1>
 		<h2>
 			{#if data.post.ogpublished}
-				Originally Published {dateConvert(data.post.date)}
+				Originally Published {dateConvert(data.post.ogpublished)}
 			{:else}
 				Published {dateConvert(data.post.date)}
 			{/if}

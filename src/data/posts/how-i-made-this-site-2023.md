@@ -1,6 +1,6 @@
 ---
 title: How I Made This Site (2023 Edition)
-date: 2023-04-23
+date: 2023-04-24
 readTime: 10
 updated:
 tags:
