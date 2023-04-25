@@ -9,5 +9,8 @@ if [[ -f .node-version || -f .nvmrc ]]; then
     fnm use
 fi
 
+pnpm lint
 fnm use default
-pnpm format
+rm -rf pnpm-lock.yaml
+pnpm install
+pnpm exec playwright test
