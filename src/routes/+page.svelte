@@ -1,17 +1,10 @@
+<script context="module" lang="ts">
+	import RecentPosts from '../components/RecentPosts.svelte';
+</script>
+
 <script>
 	/** @type {import('./$types').PageData} */
 	export let data;
-	let date;
-	for (let i = 0; i < data.posts.length; i++) {
-		date = new Date(data.posts[i].date);
-		date =
-			date.toLocaleDateString('en-us', { month: 'short' }) +
-			' ' +
-			date.getDate() +
-			', ' +
-			date.getFullYear();
-		data.posts[i].date = date;
-	}
 	import DannyPhoto from '$lib/photos/danny_photo.jpg?w=400&h=400&webp&imagetools';
 </script>
 
@@ -43,23 +36,4 @@
 	</div>
 </section>
 
-<section class="bg-zinc-50 pt-4 dark:bg-gray-900">
-	<div class="mx-auto max-w-5xl p-6">
-		<h1 class="text-2xl font-bold text-zinc-800 dark:text-zinc-200">Recent Posts</h1>
-		<ul class="mx-auto mt-2">
-			{#each data.posts as post}
-				{#if post.status === 'published'}
-					<li class="rounded-lg py-3 px-2 hover:bg-slate-300 dark:hover:bg-slate-500">
-						<span class="rounded bg-gray-600 p-1 text-sm font-light uppercase text-gray-200"
-							>{post.type}</span
-						>
-						<a class="px-2 text-lg hover:underline dark:text-gray-300" href="/blog/{post.slug}"
-							>{post.title}</a
-						>
-						<span class="text-sm font-light italic dark:text-gray-300">{post.date}</span>
-					</li>
-				{/if}
-			{/each}
-		</ul>
-	</div>
-</section>
+<RecentPosts posts={data.posts} />

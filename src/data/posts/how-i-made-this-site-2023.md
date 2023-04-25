@@ -8,8 +8,6 @@ type: guide
 status: published
 ---
 
-# How I Made This Site
-
 Despite how long this site has been up, I actually started in March 2023. This is not an explicit tutorial, but you could probably follow along and get through building your own similar site if you wanted.
 
 My goal of this guide is to give you the exact steps on how to build this site. My goal is to explain a little bit about what I know of the web (which I am not an expert by a longshot) and the design decisions I made to build this in 2023. If you want step-by-step guides, here are some that I used or referred to:
