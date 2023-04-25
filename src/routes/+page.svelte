@@ -12,8 +12,7 @@
 			date.getFullYear();
 		data.posts[i].date = date;
 	}
-	// @ts-ignore
-	import DannyPhoto from '$lib/photos/danny_photo.jpg?w=400&h=400&webp';
+	import DannyPhoto from '$lib/photos/danny_photo.jpg?w=400&h=400&webp&imagetools';
 </script>
 
 <section class="bg-zinc-50 dark:bg-gray-900">
