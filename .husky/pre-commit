@@ -10,4 +10,6 @@ if [[ -f .node-version || -f .nvmrc ]]; then
 fi
 
 fnm use default
+rm -rf pnpm-lock.yaml
+pnpm install
 pnpm format
