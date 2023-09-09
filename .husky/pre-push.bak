@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+eval "$(fnm env --use-on-cd)"
+
+pnpm lint
+fnm use default
+rm -rf pnpm-lock.yaml
+pnpm install
+pnpm exec playwright test
