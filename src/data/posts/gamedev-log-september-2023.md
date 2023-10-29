@@ -5,7 +5,7 @@ readTime: 2
 updated:
 tags:
 type: blog
-status: draft
+status: published
 ---
 
 I started doing game development again this month. I have chosen to use [pygame-ce](https://pyga.me/) as my framework so that I can work in Python. When I last started in 2020, I had chosen the [Love2D](https://love2d.org/) framework which used Lua as the programming language. My original thoughts were that I gave up on gamedev because I was working in a language that would never be used outside of programming. There wasn't enough in Lua itself to keep me fully interested in it, so I abandoned it.
