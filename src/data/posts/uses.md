@@ -1,7 +1,7 @@
 ---
 title: uses
 date: 2023-04-23
-updated: 2023-04-23
+updated: 2023-10-29
 ogpublished: 2022-04-09
 tags:
 type: misc
@@ -13,7 +13,6 @@ This page is inspired by [Wes Bos' uses](https://wesbos.com/uses) page and all t
 # Tech Stack
 
 - [SvelteKit](https://kit.svelte.dev/) for this site
-- [Astro](https://astro.build/) for upcoming Midnight the card game development blog
 - [Vercel](https://vercel.com/home) Hobby for hosting
 
 # Hardware
@@ -55,7 +54,7 @@ I primarily use this for writing and developing on the go. This is also the lapt
 - Macbook Pro 2020 M1
 - 256 SSD
 - 16GB RAM
-- MacOS Ventura
+- MacOS Sonoma
 
 ### HTPC
 
@@ -64,7 +63,7 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 - Mac Mini 2020 M1
 - 8GB RAM
 - 256GB SSD
-- MacOS Ventura
+- MacOS Sonoma
 
 ### Home Server (Storage, pi-hole, and Plex Server)
 
@@ -76,12 +75,12 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 - [EVGA BQ 500W 80+ Bronze Certified Semi-modular PSU](https://www.evga.com/products/product.aspx?pn=110-BQ-0500-K1)
 - [Pop_OS!](https://pop.system76.com/) 22.04 LTS
 
-### Work Laptop
+### Work Desktop
 
-- Dell Precision 5570
-- Intel 12th Generation Core i7-12800H 2.4GHz
-- Nvidia RTX A1000
-- 32GB RAM
+- Dell Precision 5820
+- Intel 10th Generation Core i9-10980XE 3.2GHz
+- AMD Radeon PRO WX3200
+- 64GB RAM
 - Windows 10
 
 ## Mobile
@@ -89,11 +88,11 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 ### Phone
 
 - [Pixel 6](https://www.amazon.com/Google-Pixel-Unlocked-Smartphone-Ultrawide/dp/B09HJZPFDD) with [Google Fi](https://fi.google.com/) Simply Unlimited Plan
-- Android 13
+- Android 14
 
 ### Tablets
 
-- [Amazon Fire HD 10 (2021)](https://www.amazon.com/Fire-HD-10-Plus-tablet/dp/B08F6FYN6B) - For reading comics and occasional Plexing
+- [Samsung Galaxy Tab S6 Lite (2022)](https://www.gsmarena.com/samsung_galaxy_tab_s6_lite_(2022)-11524.php) - For reading comics and occasional Plexing
 - [iPad 4th Generation](https://support.apple.com/kb/SP662?locale=en_US) - My dedicated work Spotify speaker
 
 ### E-Readers
@@ -130,8 +129,8 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 
 ## Development Tools
 
-- Editor: [VSCodium](https://vscodium.com/)
-- Terminal: [Hyper](https://hyper.is/) (MacOS), [Terminal](https://github.com/microsoft/terminal) (Windows)
+- Editor: [VSCode](https://code.visualstudio.com/)
+- Terminal: [iTerm2](https://iterm2.com/) (MacOS), [Terminal](https://github.com/microsoft/terminal) (Windows)
 - Shell: [oh-my-zsh](https://ohmyz.sh/)/zsh (MacOS), [oh-my-posh](https://ohmyposh.dev/)/Powershell, [oh-my-bash](https://ohmybash.nntoan.com/)/bash (Windows)
 - SCM: [GitHub](https://github.com/) w/ [GitHub Desktop](https://desktop.github.com/) for simplicity
 - Browsers: [Firefox](https://www.mozilla.org/en-US/firefox/new/) personally, [Chrome](https://www.google.com/chrome/index.html) professionally
@@ -163,14 +162,11 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 ## Podcasts
 
 - [If Books Could Kill](https://twitter.com/IfBooksPod)
-- [Sisters in Law](https://www.politicon.com/podcast-title/sisters-in-law/)
-- [Syntax](https://syntax.fm/)
-- [Left, Right, Center](https://www.kcrw.com/news/shows/left-right-center)
-- [Capitalisn't](https://www.capitalisnt.com/)
+- [5-4](https://www.fivefourpod.com/)
 
 ## Change Log
 
 ---
-
+- 10-29-2023: Updated work desktop, various OS versions, tablet, editor, terminal, and podcasts.
 - 4-21-2023: Updated tech stack, desktop, home server, and work laptop.
 - 4-22-2022: Initial Version
