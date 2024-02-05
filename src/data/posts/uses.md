@@ -1,7 +1,7 @@
 ---
 title: uses
 date: 2023-04-23
-updated: 2023-10-29
+updated: 2024-02-05
 ogpublished: 2022-04-09
 tags:
 type: misc
@@ -28,7 +28,7 @@ This is the primary computer where I spend most of my time at home. I use it for
 - [ASRock Radeon 6950 XT OC Formula 16GB](https://www.asrock.com/Graphics-Card/AMD/Radeon%20RX%206950%20XT%20OC%20Formula%2016GB/)
 - [LG 34GK950F 34" Ultrawide 144 Hz 1440p Monitor](https://www.lg.com/us/monitors/lg-34GK950F-B-gaming-monitor)
 - [Dell S2421HN 24" 75 Hz 1080p Monitor](https://www.dell.com/en-us/shop/dell-24-monitor-s2421hn/apd/210-axhj/monitors-monitor-accessories) (Portrait)
-- [Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4-3200 CL16 RAM](https://www.corsair.com/us/en/Categories/Products/Memory/Vengeance-PRO-RGB-White/p/CMW32GX4M2E3200C16W)
+- [Corsair Vengeance RGB Pro 32GB (2x2x16GB) DDR4-3200 CL16 RAM](https://www.corsair.com/us/en/Categories/Products/Memory/Vengeance-PRO-RGB-White/p/CMW32GX4M2E3200C16W)
 - [Samsung 970 Evo Plus 1 TB M.2 NVMe](https://semiconductor.samsung.com/consumer-storage/internal-ssd/970evoplus/) (Windows)
 - [Crucial P3 500GB NVMe](https://www.crucial.com/ssd/p3/CT500P3SSD8) (Linux)
 - [Samsung 870 EVO 1 TB SSD](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/870-evo-sata-2-5-ssd-1tb-mz-77e1t0b-am/) (Storage)
@@ -52,8 +52,8 @@ This is the primary computer where I spend most of my time at home. I use it for
 I primarily use this for writing and developing on the go. This is also the laptop I bring with a USB-C to HDMI cable to (attempt) to plug-in to hotels on vacation to watch our shows!
 
 - Macbook Pro 2020 M1
-- 256 SSD
 - 16GB RAM
+- 256FB SSD
 - MacOS Sonoma
 
 ### HTPC
@@ -69,11 +69,11 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 
 - [AMD Ryzen 5 3600X 3.8GHz Hexa-Core CPU](https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D)
 - [ASRock X570 Phantom Gaming 4](https://pg.asrock.com/mb/AMD/X570%20Phantom%20Gaming%204/index.asp)
-- [Corsair Vengeance LPX 32GB (2x16GB) DDR4-3200 CL16 RAM](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE-LPX/p/CMK32GX4M2B3200C16)
+- Corsair Vengeance LPX 32GB (2x16GB) DDR4-3200 CL16 RAM & Corsair Vengeance LPX 64GB (2x32GB) DDR4-3200 CL16 RAM
 - 3x [Seagate BarraCuda 4TB 5400RPM HDD](https://www.seagate.com/products/hard-drives/barracuda-hard-drive/) in RAID 5
-- 2x [WD Blue 2TB 5400RPM HDD](https://www.westerndigital.com/solutions/color-drives/wd-blue) in RAID 10
+- 3x [Seagate BarraCuda 8TB 5400RPM HDD](https://www.seagate.com/products/hard-drives/barracuda-hard-drive/) in RAID 5
 - [EVGA BQ 500W 80+ Bronze Certified Semi-modular PSU](https://www.evga.com/products/product.aspx?pn=110-BQ-0500-K1)
-- [Pop_OS!](https://pop.system76.com/) 22.04 LTS
+- [Ubuntu](https://ubuntu.com/) 22.04 LTS
 
 ### Work Desktop
 
@@ -130,24 +130,24 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 ## Development Tools
 
 - Editor: [VSCode](https://code.visualstudio.com/)
-- Terminal: [iTerm2](https://iterm2.com/) (MacOS), [Terminal](https://github.com/microsoft/terminal) (Windows)
-- Shell: [oh-my-zsh](https://ohmyz.sh/)/zsh (MacOS), [oh-my-posh](https://ohmyposh.dev/)/Powershell, [oh-my-bash](https://ohmybash.nntoan.com/)/bash (Windows)
-- SCM: [GitHub](https://github.com/) w/ [GitHub Desktop](https://desktop.github.com/) for simplicity
+- Terminal: [Wezterm](https://wezfurlong.org/wezterm/index.html) (MacOS/Linux), [Terminal](https://github.com/microsoft/terminal) (Windows)
+- Shell: [oh-my-zsh](https://ohmyz.sh/)/zsh, [oh-my-posh](https://ohmyposh.dev/)/Powershell, [oh-my-bash](https://ohmybash.nntoan.com/)/bash (Windows)
+- SCM: [GitHub](https://github.com/) w/ [GitHub Desktop](https://desktop.github.com/) and [Self-hosted Gitea](https://about.gitea.com/)
 - Browsers: [Firefox](https://www.mozilla.org/en-US/firefox/new/) personally, [Chrome](https://www.google.com/chrome/index.html) professionally
-- Font: Consolas Font, [Fira Code Nerd Fonts](https://www.nerdfonts.com/)
-- Markdown Editor: [Typora](https://typora.io/)
+- Font: [Fira Code Nerd Fonts](https://www.nerdfonts.com/)
 
 ## Productivity
 
 - [Obsidian](https://obsidian.md/) for note taking
-- [Google Drive](https://www.google.com/drive/) for personal file syncing
+- [Nextcloud](https://nextcloud.com/) self-hosted personal file syncing
 - [NordPass](https://nordpass.com/) Family for shared use with my wife
 - [NordVPN](https://nordvpn.com/) for privacy
-- [Google Messages](https://messages.google.com/) on desktop and mobile
-- [Trello](https://trello.com/) for simple issue tracking
+- [Ferdium](https://ferdium.org/) on desktop to aggregate all chat protocols
+- [Google Messages](https://messages.google.com) on mobile
 - [DisplayFusion Pro](https://www.displayfusion.com/) (Windows) for better multi-monitor desktop background management and better taskbar support
 - [Stretchly](https://hovancik.net/stretchly/) to remind me to rest my eyes and stretch
-- [BetterTouchTools](https://folivora.ai/) (MacOS) for Windows-esque window snapping
+- [Rectangle](https://rectangleapp.com/) (MacOS) for Windows-esque window snapping
+- [AltTab](https://alt-tab-macos.netlify.app/) (MacOS) for Windows-esque alt-tabbing
 - [Fig](https://fig.io/) (MacOS) for autocompletion in the terminal
 - [Scoop](https://scoop.sh/) (Windows) for command line installs and package management
 - [Homebrew](https://brew.sh/) (MacOS/Linux) for command line installs and package management
@@ -167,6 +167,7 @@ Dedicated computer for our Sony 55" 4K TV downstairs that we watch shows on or p
 ## Change Log
 
 ---
+- 2-5-2024: Updated desktop, home server, and software.
 - 10-29-2023: Updated work desktop, various OS versions, tablet, editor, terminal, and podcasts.
 - 4-21-2023: Updated tech stack, desktop, home server, and work laptop.
 - 4-22-2022: Initial Version
