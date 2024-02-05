@@ -45,7 +45,7 @@ This is the primary computer where I spend most of my time at home. I use it for
 - [Blue Yeti Microphone](https://www.logitechg.com/en-us/products/streaming-gear/yeti-premium-usb-microphone.988-000100.html)
 - [Rode PSA1 Boom Arm](https://rode.com/en/accessories/stands-bars/psa1)
 - [Huanuo Dual Monitor Mount Stand](https://smile.amazon.com/gp/product/B07X262MRK?psc=1)
-- Dual Boot Windows 10 & [Pop_OS!](https://pop.system76.com/) 22.04
+- Dual Boot Windows 10 & [Manjaro](https://manjaro.org/)
 
 ### Development Laptop & Portable HTPC
 
